@@ -1,0 +1,74 @@
+/* Dropdown */
+.collections-dropdown {
+    margin-top: 3%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .collection-select {
+    min-width: 100%;
+    }
+
+  
+  /* Drag */
+  .collections-drag {
+    margin-top: 10%;
+    width: 90%;
+    top: 10%;
+    left: 15%;
+    position: relative;
+  }
+  
+
+  .collection-card {
+   height: 300px;
+
+  }
+/* 
+  .flexParent {
+    display: flex;
+    align-items: stretch;
+  } */
+  
+  /* .marginRight {
+    margin-right: 1%;
+  } */
+/*   
+  .drag {
+    margin-top: 3%;
+  } */
+
+  .mainContainer {
+    padding: 4%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 25px; /* adjust as needed */
+  
+  }
+
+    /* All pages styling - whole container
+    .collections-page {
+      text-align: center;
+      width: 85%;
+      padding: 5%;
+      position: relative;
+    } */
+    
+
+  .customTable {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    }
+
+   .ant-row:first-child {
+    margin-bottom: 16px !important; /* adjust this value as needed */
+    }
+  
+
+    .flexible-card .ant-card-body {
+      flex-grow: 1;
+      /* display: "inline-flex";
+      align-self: "stretch"; */
+  }

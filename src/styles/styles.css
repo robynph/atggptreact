@@ -1,0 +1,421 @@
+.custom-card {
+  border: none;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: auto;
+    background-color: #E0E0E0;
+   
+ 
+}
+
+.title{
+    font-size: 2rem;
+
+    background-color: #E0E0E0;
+}
+
+
+.nav{
+    background-color: #3F3F3F;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 4px 20px;
+    position: relative;
+}
+.title{
+    font-size: 2rem;
+    color: #CDD451;
+    position: relative;
+  
+    
+}
+.btn2{
+    
+}
+
+.nav ul {
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     display: flex;
+     gap: 1rem;
+}
+.card{
+    background-color: #E4F9FD;
+    left: -20px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 5px;
+    color: #4b6673;
+    box-shadow: 1px 1px 1px#4b6673;
+    margin: 20px auto 0px;
+    max-width: 700px;
+
+
+}
+.card2{
+    background-color: #E4F9FD;
+    left: -20px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    color: #4b6673;
+    box-shadow: 1px 1px 1px#4b6673;
+    margin: 20px auto 0px;
+    max-width: 700px;
+}
+.card3{
+    background-color: #E4F9FD;
+    left: -20px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 5px;
+    color: #4b6673;
+    box-shadow: 1px 1px 1px#4b6673;
+    margin: 40px auto 0px;
+    max-width: 1000px;
+}
+
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li:hover{
+    background-color: #E5E5FC;
+    border-radius: 5px;
+}
+.nav li.active{
+    background-color: aqua;
+}
+.dropdown-btn{
+    padding: 15px 20px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 5px rgba(0,0,0, 0.06);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown{
+    width: 500px;
+    margin: 100px auto;
+    position: relative;
+}
+.dropdown .dropdown-content {
+     position: absolute;
+     width: 500px;
+     top: 110%;
+     left:0;
+     padding: 10px;
+     background: #fff;
+     box-shadow: 3px 3px 10px 6px rgba(0,0,0, 0.06);
+     font-weight: 500;
+     color: #333;
+     width: 400px;
+}
+
+.dropdown .dropdown-content .dropdown-item {
+    padding: 10px;
+}
+.dropdown .dropdown-content .dropdown-item:hover {
+    background: #f4f4f4;
+}
+
+/* Collections and Templates styling - dropdown */
+.collections-dropdown{
+    margin-top: 50px;
+    position: relative;
+    top: -60px;
+    display:block;
+    left: -9px;
+    height: 200px;
+    width: 640px;
+}
+
+.collection-select{
+    margin-top: 70px;
+    position: relative;
+    top: -30px;
+    display:block;
+    left: 0px;
+    height: 40px;
+    width: 640px;
+}
+
+/* Collections and Templates styling - drag */
+.collections-drag{
+   margin-top: 60px;
+   width: 700px;
+   top: -90px;
+   left: -45px;
+   position: relative;
+   
+   
+}
+
+
+
+/* ADD COMMENTS HERE--buttons*/
+.flex-parent {
+  justify-content: space-between;
+  width: 700px;
+  position: absolute;
+  margin: auto;
+  left: -0px;
+
+  
+}
+
+.jc-center {
+  justify-content: space-between;
+  width: 100%;
+}
+
+button.margin-right {
+  margin-right: 20px;
+  top:10px
+}
+/* Buttons under collecetions dropdown*/
+button.margin-right3 {
+ margin-right: 30px;
+  top:10px;
+  left: 10px;
+  
+}
+/* ADD COMMENTS*/
+button.margin-right1 {
+  margin-right: 20px;
+  top:80px;
+  left: 10px;
+
+}
+
+
+
+
+/* Slider styling*/
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  outline: none;
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 30px;
+  background: #3F96FE;
+  cursor: pointer;
+  border: 2px solid #3F96FE;
+  border-radius: 1px;
+}
+
+/* Canurtgpt page*/
+.menu-container{
+
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    width: 640px; 
+    padding: 30px 10px;
+
+    position: relative;
+    
+}
+
+
+.gptdropdown1{
+    margin-top: 60px;
+    position: relative;
+    top: 0px;
+    display:block;
+    left: -40px;
+    height: 100px;
+    width: 700px;
+  
+    
+}
+.gptdropdown2{
+    margin-top: 50px;
+    position: relative;
+    top: -20px;
+    display:block;
+    left: -40px;
+    height: 200px;
+    width: 700px;
+}
+.gptdropdown3{
+    margin-top: 50px;
+    position: relative;
+    top: -140px;
+    display:block;
+    left: -40px;
+    height: 200px;
+    width: 700px;
+}
+
+
+/* Dropdown*/
+.dropdown-container {
+  text-align: left;
+  border: 1px solid #ccc;
+  position: relative;
+  border-radius: 5px;
+  top: 30px;
+}
+
+
+.dropdown-input {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+}
+.dropdown-menu{
+    position: absolute;
+    transform: translateY(4px);
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: auto;
+    max-height: 150px;
+    background-color: #fff;
+
+}
+.dropdown-item{
+    padding: 5px;
+}
+.dropdown-item:hover{
+    background-color: #9fc3f870;
+}
+.textarea {
+  width: 100%;
+  height: 300px;
+}
+.textareaGPT{
+
+  height: 300px;
+  left: -30px;
+}
+
+.innercard1{
+  background-color: #E4F9FD;
+  border-radius: 0;
+}
+.listcollections{
+    text-align:inherit;
+    width: 100%;
+    height: 20px;
+    left: -30px;
+    top: 300px;
+    position: absolute;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 2px;
+
+}
+#result-container{
+
+    width: 100%;
+    left: -5px;
+    top: 70px;
+    position: relative;
+
+    border-radius: 5px;
+    margin: auto;
+
+    padding: 30px;
+    text-align:unset;
+  
+}
+.sliderGPT{
+  width: 900px;
+
+}
+
+#temperature-container{
+    width: 100%;
+    left: -5px;
+    top: 100px;
+    position: relative;
+    border-color: black;
+    border-radius: 5px;
+    margin: auto;
+    border: 5px solid rgb(77, 150, 234);
+    padding: 30px;
+    text-align:unset;
+}
+.login{
+    text-align: center;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  background-image: linear-gradient(79deg, #7439db, #C66FBC 48%, #F7944D);
+}
+.auth-form-container, .login-form, .register-form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+button {
+  border: none;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+
+/* Buttons under collecetions dropdown*/
+button.margin-right4 {
+  margin-right: 20px;
+  top:-110px;
+  left: 10px;
+  
+}
+/* ADD COMMENTS HERE--buttons*/
+.flex-parent1 {
+  
+  position: relative;
+  width: 200px;
+  
+}
+
+.jc-center1 {
+  justify-content: center;
+  width: 100%;
+}
+
+
